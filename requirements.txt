@@ -1,0 +1,4 @@
+altair
+seaborn
+pandas
+matplotlib
