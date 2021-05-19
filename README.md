@@ -6,15 +6,13 @@ Look through the script method-by-method and see how it is shown in on the websi
 ## To Run
 - ```pip3 install streamlit```
 - ```streamlit run iris.py```
-- Copy and paste the shown address to your web browser to load.
+- _Copy and paste the shown address to your web browser to load._
 
 ## Pros & Cons
 ![image](https://user-images.githubusercontent.com/3746478/118777533-74878180-b889-11eb-9af0-4affa2eb3d77.png)
 
-
 ## Comparison between Streamlit and Jupyter Notebook
 ![image](https://user-images.githubusercontent.com/3746478/118777566-7ea98000-b889-11eb-9e2c-516de58a8dfd.png)
-
 - c.f. https://discuss.streamlit.io/t/working-with-jupyter-notebooks/368
 
 ## Documentation
