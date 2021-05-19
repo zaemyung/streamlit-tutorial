@@ -2,7 +2,7 @@
 
 A simple tutorial script on Streamlit using the Iris Dataset.
 
-Look through the script method-by-method, and see how it is shown on the website (dashboard).
+Look through the script (`iris.py`) method-by-method, and see how it is shown on the website (dashboard).
 
 Online demo: [here](https://share.streamlit.io/zaemyung/streamlit-tutorial/main/iris.py)
 
