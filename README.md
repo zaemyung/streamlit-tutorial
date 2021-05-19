@@ -9,10 +9,12 @@ Look through the script method-by-method and see how it is shown in on the websi
 - Copy and paste the shown address to your web browser to load.
 
 ## Pros & Cons
-![image](https://user-images.githubusercontent.com/3746478/118777274-2d00f580-b889-11eb-9fa9-a91f303c057e.png)
+![image](https://user-images.githubusercontent.com/3746478/118777533-74878180-b889-11eb-9af0-4affa2eb3d77.png)
 
-## Streamlit VS Jupyter Notebook
-![image](https://user-images.githubusercontent.com/3746478/118777370-443fe300-b889-11eb-9fa4-6a5d2cc9dff1.png)
+
+## Comparison between Streamlit and Jupyter Notebook
+![image](https://user-images.githubusercontent.com/3746478/118777566-7ea98000-b889-11eb-9e2c-516de58a8dfd.png)
+
 - c.f. https://discuss.streamlit.io/t/working-with-jupyter-notebooks/368
 
 ## Documentation
