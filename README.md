@@ -1,7 +1,7 @@
 # streamlit-tutorial
 A simple tutorial script on Streamlit using the Iris Dataset.
 
-Look through the script method-by-method and see how it is shown in on the website (dashboard).
+Look through the script method-by-method, and see how it is shown on the website (dashboard).
 
 ![image](https://user-images.githubusercontent.com/3746478/118778770-b5cc6100-b88a-11eb-8786-29967368da28.png)
 
