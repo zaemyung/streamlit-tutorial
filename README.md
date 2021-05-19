@@ -1,7 +1,10 @@
 # streamlit-tutorial
+
 A simple tutorial script on Streamlit using the Iris Dataset.
 
 Look through the script method-by-method, and see how it is shown on the website (dashboard).
+
+Online demo: [here](https://share.streamlit.io/zaemyung/streamlit-tutorial/main/iris.py)
 
 ![image](https://user-images.githubusercontent.com/3746478/118778770-b5cc6100-b88a-11eb-8786-29967368da28.png)
 
