@@ -19,7 +19,8 @@ Online demo: [here](https://share.streamlit.io/zaemyung/streamlit-tutorial/main/
 ![image](https://user-images.githubusercontent.com/3746478/118777533-74878180-b889-11eb-9af0-4affa2eb3d77.png)
 
 ## Comparison between Streamlit and Jupyter Notebook
-- c.f. https://discuss.streamlit.io/t/working-with-jupyter-notebooks/368
+(c.f. https://discuss.streamlit.io/t/working-with-jupyter-notebooks/368)
+
 ![image](https://user-images.githubusercontent.com/3746478/118777566-7ea98000-b889-11eb-9e2c-516de58a8dfd.png)
 
 ## Documentation
