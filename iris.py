@@ -22,7 +22,7 @@ def show_description(species: str) -> None:
         }
         return images
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     description = _read_descriptions(species)
     images = _load_images()
     col1.header(species)
@@ -34,7 +34,7 @@ def show_description(species: str) -> None:
 def home_page() -> None:
     st.title('Looking into Iris Dataset')
     st.image('all_three.jpg', caption='Three types of Iris flowers.')
-    with st.beta_expander('Show raw data'):
+    with st.expander('Show raw data'):
         st.write(df)
     st.header('General Information')
     selected_sepecies = st.radio('Select species', ['Setosa', 'Versicolor', 'Virginica'])
