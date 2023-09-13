@@ -7,19 +7,20 @@ from PIL import Image
 
 
 def show_description(species: str) -> None:
-    @st.cache(suppress_st_warning=True)
+    @st.cache_data
     def _read_descriptions(species: str) -> str:
         with open(f'{species.lower()}_descriptions.txt', 'r') as f:
             return f.read()
 
-    @st.cache(suppress_st_warning=True)
+    @st.cache_data
     def _load_images():
-        st.write('Cache miss')
         images = {
             'Setosa': Image.open('setosa.jpg'),
             'Versicolor': Image.open('versicolor.jpg'),
             'Virginica': Image.open('virginica.jpg'),
         }
+        import time
+        time.sleep(3)  # explicitly wait for three seconds to show caching is working
         return images
 
     col1, col2 = st.columns(2)
@@ -44,7 +45,7 @@ def home_page() -> None:
 def dataset_page() -> None:
     st.title('Dataset')
     st.header('Statistics')
-    stats_df = pd.concat([df.mean(), df.std()], axis=1, names=['mean', 'std']).rename(columns={0: 'mean', 1: 'std'})
+    stats_df = pd.concat([df.mean(numeric_only=True), df.std(numeric_only=True)], axis=1, names=['mean', 'std']).rename(columns={0: 'mean', 1: 'std'})
     st.write(stats_df)
     sepal_len_lower = st.number_input('Lower bound for sepalLength',)
     sepal_upper = st.number_input('Upper bound for sepalLength', value=4.8)
